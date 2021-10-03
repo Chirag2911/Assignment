@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/dp10"
+    android:paddingRight="@dimen/dp10"
+    android:id="@+id/parent_layout"
+    >
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/city"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="start"
+        android:padding="@dimen/dp10"
+        android:text="@string/city"
+        android:textColor="@color/color_black"
+        android:textSize="@dimen/sp16" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/aqi_value"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_marginRight="@dimen/dp10"
+        android:layout_marginLeft="@dimen/dp10"
+        android:padding="@dimen/dp10"
+        android:text="@string/current_aqi"
+        android:textColor="@color/color_black"
+        android:textSize="@dimen/sp16" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/aqi_time"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="start"
+        android:padding="@dimen/dp10"
+        android:text="@string/last_updated"
+        android:textColor="@color/color_black"
+        android:textSize="@dimen/sp16" />
+
+</LinearLayout>
